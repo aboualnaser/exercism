@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		837692071AB4A6AF008359DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 837692061AB4A6AF008359DF /* main.m */; };
+		837692161AB4B429008359DF /* Word_Count_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 837692151AB4B429008359DF /* Word_Count_Tests.m */; };
+		8376921A1AB4B482008359DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 837692061AB4A6AF008359DF /* main.m */; };
+		8376921C1AB4B49B008359DF /* WordCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 8376921B1AB4B49B008359DF /* WordCount.m */; };
+		8376921E1AB4B579008359DF /* WordCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 8376921B1AB4B49B008359DF /* WordCount.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +29,22 @@
 /* Begin PBXFileReference section */
 		837692031AB4A6AF008359DF /* word-count */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "word-count"; sourceTree = BUILT_PRODUCTS_DIR; };
 		837692061AB4A6AF008359DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		837692111AB4B429008359DF /* Word-Count Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Word-Count Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		837692141AB4B429008359DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837692151AB4B429008359DF /* Word_Count_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Word_Count_Tests.m; sourceTree = "<group>"; };
+		8376921B1AB4B49B008359DF /* WordCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordCount.m; sourceTree = "<group>"; };
+		8376921D1AB4B4A4008359DF /* WordCount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WordCount.h; path = ../WordCount.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		837692001AB4A6AF008359DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8376920E1AB4B429008359DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				837692051AB4A6AF008359DF /* word-count */,
+				837692121AB4B429008359DF /* Word-Count Tests */,
 				837692041AB4A6AF008359DF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				837692031AB4A6AF008359DF /* word-count */,
+				837692111AB4B429008359DF /* Word-Count Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +76,27 @@
 			isa = PBXGroup;
 			children = (
 				837692061AB4A6AF008359DF /* main.m */,
+				8376921D1AB4B4A4008359DF /* WordCount.h */,
+				8376921B1AB4B49B008359DF /* WordCount.m */,
 			);
 			path = "word-count";
+			sourceTree = "<group>";
+		};
+		837692121AB4B429008359DF /* Word-Count Tests */ = {
+			isa = PBXGroup;
+			children = (
+				837692151AB4B429008359DF /* Word_Count_Tests.m */,
+				837692131AB4B429008359DF /* Supporting Files */,
+			);
+			path = "Word-Count Tests";
+			sourceTree = "<group>";
+		};
+		837692131AB4B429008359DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				837692141AB4B429008359DF /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +119,23 @@
 			productReference = 837692031AB4A6AF008359DF /* word-count */;
 			productType = "com.apple.product-type.tool";
 		};
+		837692101AB4B429008359DF /* Word-Count Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837692171AB4B429008359DF /* Build configuration list for PBXNativeTarget "Word-Count Tests" */;
+			buildPhases = (
+				8376920D1AB4B429008359DF /* Sources */,
+				8376920E1AB4B429008359DF /* Frameworks */,
+				8376920F1AB4B429008359DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Word-Count Tests";
+			productName = "Word-Count Tests";
+			productReference = 837692111AB4B429008359DF /* Word-Count Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +146,9 @@
 				ORGANIZATIONNAME = exercism;
 				TargetAttributes = {
 					837692021AB4A6AF008359DF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					837692101AB4B429008359DF = {
 						CreatedOnToolsVersion = 6.2;
 					};
 				};
@@ -109,9 +166,20 @@
 			projectRoot = "";
 			targets = (
 				837692021AB4A6AF008359DF /* word-count */,
+				837692101AB4B429008359DF /* Word-Count Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8376920F1AB4B429008359DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		837691FF1AB4A6AF008359DF /* Sources */ = {
@@ -119,6 +187,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				837692071AB4A6AF008359DF /* main.m in Sources */,
+				8376921C1AB4B49B008359DF /* WordCount.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8376920D1AB4B429008359DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8376921E1AB4B579008359DF /* WordCount.m in Sources */,
+				8376921A1AB4B482008359DF /* main.m in Sources */,
+				837692161AB4B429008359DF /* Word_Count_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +292,38 @@
 			};
 			name = Release;
 		};
+		837692181AB4B429008359DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Word-Count Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		837692191AB4B429008359DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Word-Count Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -230,6 +341,14 @@
 			buildConfigurations = (
 				8376920B1AB4A6AF008359DF /* Debug */,
 				8376920C1AB4A6AF008359DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		837692171AB4B429008359DF /* Build configuration list for PBXNativeTarget "Word-Count Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837692181AB4B429008359DF /* Debug */,
+				837692191AB4B429008359DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

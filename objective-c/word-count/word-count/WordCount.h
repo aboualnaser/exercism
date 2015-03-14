@@ -1,5 +1,5 @@
 //
-//  main.m
+//  WordCount.h
 //  word-count
 //
 //  Created by Chris Sprague on 3/14/15.
@@ -7,13 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "WordCount.h"
 
-int main(int argc, const char * argv[])
-{
-    @autoreleasepool {
+@interface WordCount : NSObject
 
-    }
-    
-    return 0;
-}
+- (WordCount *)initWithString:(NSString *)words;
+- (NSMutableDictionary *)count;
+
+@end
