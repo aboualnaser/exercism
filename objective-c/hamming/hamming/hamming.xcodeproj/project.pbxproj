@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		837691F81AB49C75008359DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A704231AB48A830081B185 /* main.m */; };
+		837691F91AB49C78008359DF /* Hamming.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A7042B1AB48B430081B185 /* Hamming.m */; };
 		83A7043B1AB4924B0081B185 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A704231AB48A830081B185 /* main.m */; };
 		83A7043C1AB492540081B185 /* Hamming.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A7042B1AB48B430081B185 /* Hamming.m */; };
 		83A704461AB4933B0081B185 /* Hamming_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A704451AB4933B0081B185 /* Hamming_Tests.m */; };
@@ -213,6 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837691F91AB49C78008359DF /* Hamming.m in Sources */,
+				837691F81AB49C75008359DF /* main.m in Sources */,
 				83A704461AB4933B0081B185 /* Hamming_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,6 +363,7 @@
 				83A704291AB48A830081B185 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83A704471AB4933B0081B185 /* Build configuration list for PBXNativeTarget "Hamming Tests" */ = {
 			isa = XCConfigurationList;
@@ -367,6 +372,7 @@
 				83A704491AB4933B0081B185 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

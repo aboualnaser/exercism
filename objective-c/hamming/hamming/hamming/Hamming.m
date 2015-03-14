@@ -14,16 +14,18 @@
 +(NSUInteger *)compute:(NSString *)strandA against:(NSString *)strandB
 {
     NSUInteger *hammingDisatance = 0;
+    NSUInteger length = MIN(strandA.length, strandB.length);
     
-    for (NSInteger i = 0; i < strandA.length; i++) {
+    for (NSInteger i = 0; i < length; i++) {
         unichar nucleotideA = [strandA characterAtIndex:i];
         unichar nucleotideB = [strandB characterAtIndex:i];
         
         if (nucleotideA != nucleotideB) {
             hammingDisatance++;
         }
+
     }
-    
+
     return hammingDisatance;
 }
 

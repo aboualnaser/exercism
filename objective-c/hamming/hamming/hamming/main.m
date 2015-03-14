@@ -11,8 +11,7 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Hamming *hamming = [[Hamming alloc] init];
-        NSLog(@"Let's get Hamming...");
+
     }
     return 0;
 }
