@@ -6,3 +6,5 @@ These are the solutions I've come up with. Spoiler alert: tests pass, so no chea
 Objective-C/Bob: http://exercism.io/submissions/074e80b2f97641c198a5fad0a22e63c4
 
 Objective-C/Hamming http://exercism.io/submissions/7fdef29a45c14cabae06e444801aab97
+
+Objective-C/word-count: http://exercism.io/submissions/85a637e8d15b48f2a208bbbe43cbdd65
