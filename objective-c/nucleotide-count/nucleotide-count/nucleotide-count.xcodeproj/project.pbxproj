@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83F583011AB513C500A988D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F583001AB513C500A988D9 /* main.m */; };
+		83F583081AB513D600A988D9 /* NucleotideCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F583071AB513D600A988D9 /* NucleotideCount.m */; };
+		83F583131AB5165400A988D9 /* NucleotideCount_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F583121AB5165400A988D9 /* NucleotideCount_Tests.m */; };
+		83F583171AB5165D00A988D9 /* NucleotideCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F583071AB513D600A988D9 /* NucleotideCount.m */; };
+		83F583181AB5166000A988D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F583001AB513C500A988D9 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		83F582FB1AB513C500A988D9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		83F582FD1AB513C500A988D9 /* nucleotide-count */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "nucleotide-count"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F583001AB513C500A988D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83F583071AB513D600A988D9 /* NucleotideCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NucleotideCount.m; sourceTree = "<group>"; };
+		83F583091AB513DE00A988D9 /* NucleotideCount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NucleotideCount.h; sourceTree = "<group>"; };
+		83F5830E1AB5165400A988D9 /* NucleotideCount Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NucleotideCount Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F583111AB5165400A988D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F583121AB5165400A988D9 /* NucleotideCount_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NucleotideCount_Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83F582FA1AB513C500A988D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F5830B1AB5165400A988D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83F582F41AB513C500A988D9 = {
+			isa = PBXGroup;
+			children = (
+				83F582FF1AB513C500A988D9 /* nucleotide-count */,
+				83F5830F1AB5165400A988D9 /* NucleotideCount Tests */,
+				83F582FE1AB513C500A988D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83F582FE1AB513C500A988D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83F582FD1AB513C500A988D9 /* nucleotide-count */,
+				83F5830E1AB5165400A988D9 /* NucleotideCount Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83F582FF1AB513C500A988D9 /* nucleotide-count */ = {
+			isa = PBXGroup;
+			children = (
+				83F583001AB513C500A988D9 /* main.m */,
+				83F583091AB513DE00A988D9 /* NucleotideCount.h */,
+				83F583071AB513D600A988D9 /* NucleotideCount.m */,
+			);
+			path = "nucleotide-count";
+			sourceTree = "<group>";
+		};
+		83F5830F1AB5165400A988D9 /* NucleotideCount Tests */ = {
+			isa = PBXGroup;
+			children = (
+				83F583121AB5165400A988D9 /* NucleotideCount_Tests.m */,
+				83F583101AB5165400A988D9 /* Supporting Files */,
+			);
+			path = "NucleotideCount Tests";
+			sourceTree = "<group>";
+		};
+		83F583101AB5165400A988D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83F583111AB5165400A988D9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83F582FC1AB513C500A988D9 /* nucleotide-count */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F583041AB513C500A988D9 /* Build configuration list for PBXNativeTarget "nucleotide-count" */;
+			buildPhases = (
+				83F582F91AB513C500A988D9 /* Sources */,
+				83F582FA1AB513C500A988D9 /* Frameworks */,
+				83F582FB1AB513C500A988D9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nucleotide-count";
+			productName = "nucleotide-count";
+			productReference = 83F582FD1AB513C500A988D9 /* nucleotide-count */;
+			productType = "com.apple.product-type.tool";
+		};
+		83F5830D1AB5165400A988D9 /* NucleotideCount Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F583141AB5165400A988D9 /* Build configuration list for PBXNativeTarget "NucleotideCount Tests" */;
+			buildPhases = (
+				83F5830A1AB5165400A988D9 /* Sources */,
+				83F5830B1AB5165400A988D9 /* Frameworks */,
+				83F5830C1AB5165400A988D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NucleotideCount Tests";
+			productName = "NucleotideCount Tests";
+			productReference = 83F5830E1AB5165400A988D9 /* NucleotideCount Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83F582F51AB513C500A988D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = exercism;
+				TargetAttributes = {
+					83F582FC1AB513C500A988D9 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					83F5830D1AB5165400A988D9 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 83F582F81AB513C500A988D9 /* Build configuration list for PBXProject "nucleotide-count" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83F582F41AB513C500A988D9;
+			productRefGroup = 83F582FE1AB513C500A988D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83F582FC1AB513C500A988D9 /* nucleotide-count */,
+				83F5830D1AB5165400A988D9 /* NucleotideCount Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83F5830C1AB5165400A988D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83F582F91AB513C500A988D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F583011AB513C500A988D9 /* main.m in Sources */,
+				83F583081AB513D600A988D9 /* NucleotideCount.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F5830A1AB5165400A988D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F583181AB5166000A988D9 /* main.m in Sources */,
+				83F583171AB5165D00A988D9 /* NucleotideCount.m in Sources */,
+				83F583131AB5165400A988D9 /* NucleotideCount_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		83F583021AB513C500A988D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		83F583031AB513C500A988D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		83F583051AB513C500A988D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83F583061AB513C500A988D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		83F583151AB5165400A988D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NucleotideCount Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83F583161AB5165400A988D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NucleotideCount Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83F582F81AB513C500A988D9 /* Build configuration list for PBXProject "nucleotide-count" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F583021AB513C500A988D9 /* Debug */,
+				83F583031AB513C500A988D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83F583041AB513C500A988D9 /* Build configuration list for PBXNativeTarget "nucleotide-count" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F583051AB513C500A988D9 /* Debug */,
+				83F583061AB513C500A988D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83F583141AB5165400A988D9 /* Build configuration list for PBXNativeTarget "NucleotideCount Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F583151AB5165400A988D9 /* Debug */,
+				83F583161AB5165400A988D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83F582F51AB513C500A988D9 /* Project object */;
+}
