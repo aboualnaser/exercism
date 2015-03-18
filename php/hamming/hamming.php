@@ -6,10 +6,7 @@ function distance($strandA, $strandB) {
 	$length = min(strlen($strandA), strlen($strandB));
 
 	for ($i = 0; $i < $length; $i++) {
-		$nucleotideA = $strandA{$i};
-		$nucleotideB = $strandB{$i};
-
-		if ($nucleotideA != $nucleotideB) {
+		if ($strandA{$i} != $strandB{$i}) {
 			$hammingDistance++;
 		}
 	}
