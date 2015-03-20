@@ -6,7 +6,7 @@ function distance($strandA, $strandB) {
 	$length = min(strlen($strandA), strlen($strandB));
 
 	for ($i = 0; $i < $length; $i++) {
-		if ($strandA{$i} != $strandB{$i}) {
+		if ($strandA[$i] != $strandB[$i]) {
 			$hammingDistance++;
 		}
 	}
