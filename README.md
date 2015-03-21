@@ -19,3 +19,5 @@ Hamming: http://exercism.io/submissions/1de3a755ad794529aa16cab3ea8214fc
 Gigasecond: http://exercism.io/submissions/237142eef2824812af3e2832b9cd994c
 
 rna-transcription: http://exercism.io/submissions/db8343fcd4834f73b50c6fea7fde3747
+
+Raindrops: http://exercism.io/submissions/d8f9fe26bf754e418b5876271659f2b7
